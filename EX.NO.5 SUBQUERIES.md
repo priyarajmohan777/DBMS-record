@@ -26,7 +26,7 @@ To drop a view by
 Syntax: DROP VIEW viewname;
 ```
 ## PROCEDURE
-```
+
 1. Start the program. 
 2. Read the given query.
 3. Write the sub query for a given query.
@@ -36,7 +36,7 @@ Syntax: DROP VIEW viewname;
 	SELECT FROM relation_name WHERE (Condition);
 5. Show the output
 6. Stop the program
-```
+
 ### QUERY 
 ### QUERY 1
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/aa352852-f1d3-4c43-bb4e-7aabdec31262)
@@ -61,7 +61,7 @@ WHERE customer_id =
     (SELECT salesman_id - 2001
      FROM salesman
      WHERE name = 'Mc Lyon');
-     ```
+```
 ### TEST QUERY AND ITS OUTPUT
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/c7dae58e-3c29-4bf5-88cb-40b86b2cd4f9)
 ### QUERY 3
@@ -94,7 +94,9 @@ WHERE salesman_id IN
 ### QUERY 5
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/90f255d2-12b1-4cae-a033-dd9474b4589b)
 ### SQL QUERY
+```
 SELECT * FROM CUSTOMERS WHERE ID IN (SELECT ID FROM CUSTOMERS WHERE Address="Delhi" and age <30);
+```
 ###  OUTPUT
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/51e8e128-5a27-46bb-9a31-7d7ba2fe92e8)
 ### QUERY 6
